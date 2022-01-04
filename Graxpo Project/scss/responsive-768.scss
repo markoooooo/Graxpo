@@ -1,0 +1,194 @@
+// Showcase Section
+
+.showcase-section {
+  height: 400px;
+  position: relative;
+
+  .content {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .icon-scroll {
+    text-align: center;
+  }
+
+  .text-scroll {
+    text-align: center;
+  }
+
+  .headphones,
+  .cork,
+  .glass,
+  .pen-holder,
+  .pencil1,
+  .pencil2,
+  .mouse,
+  .sunglasses {
+    display: none;
+  }
+}
+
+// About Section
+.about {
+  .about--button {
+    margin-bottom: 3rem;
+  }
+}
+
+// Three Steps Section
+.steps {
+  .info-header--title {
+    line-height: 30px;
+  }
+}
+
+// Featured Section
+.featured-section {
+  .info-header--title {
+    line-height: 30px;
+  }
+}
+
+// Project, People, Loved
+.views-project {
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .line {
+    margin: auto;
+  }
+}
+
+// Service Section
+
+.service-section {
+  .info-header--title {
+    line-height: 30px;
+  }
+}
+
+.service-section-body {
+  .img {
+    order: 1;
+  }
+
+  .txt {
+    order: 2;
+    padding: 2rem 0;
+  }
+}
+
+// Keep Exploring Section
+.keep-exploor {
+  &__title {
+    line-height: 35px;
+  }
+}
+
+// Gallery Navbar Section
+
+.portfolio-section {
+  .navbar-nav {
+    display: inline-block;
+
+    .nav-item {
+      padding: 10px;
+    }
+
+    .nav-item:last-child {
+      margin-bottom: 20px;
+    }
+
+    .line {
+      display: none;
+    }
+
+    .slash {
+      display: none;
+    }
+  }
+}
+
+// Gallery Hover
+.grid {
+  .item {
+    .overlay {
+      .content {
+        h3 {
+          font-size: 12px;
+        }
+
+        p {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+// Crew Section
+.crew-body {
+  .img {
+    position: relative;
+
+    .overlay {
+      position: absolute;
+      width: 90%;
+    }
+  }
+}
+
+// Latest Title {
+.latest-blog {
+  .info-header--title {
+    margin-top: 65px;
+    line-height: 30px;
+  }
+}
+
+// Lattest Blog Picture Section
+.latest-picture {
+  .left {
+    margin-bottom: 2rem;
+  }
+}
+
+// Pricing Title Section
+.pricing-section {
+  .info-header--title {
+    margin-top: 45px;
+    line-height: 30px;
+  }
+}
+
+// Pricing Table Section
+.pricing-table {
+  .card {
+    margin-bottom: 3rem;
+  }
+}
+
+// Get In Touch Section
+.get-in-touch {
+  .info-header--title {
+    margin-top: 45px;
+    line-height: 30px;
+  }
+}
+
+// Contact Info Section
+.contact {
+  .content {
+    .contact-data-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

@@ -1,0 +1,1067 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+/* Variables */
+
+$text-dark-color: #333b46;
+$text-light-color: #81868e;
+$bg-dark-color: #e4e4e4;
+$bg-light-color: #f3f3f3;
+$bg-red-color: #e84c3d;
+
+// Utility Classes
+
+.line {
+  border-bottom: 3px solid #fff;
+  width: 48px;
+  height: 2px;
+}
+
+.line-info {
+  border-bottom: 3px solid $text-light-color;
+  width: 46px;
+  height: 3px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 43px;
+}
+
+.line-about {
+  border-bottom: 3px solid $text-light-color;
+  width: 46px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.line-sm {
+  border-bottom: 2px solid $bg-dark-color;
+  width: 31px;
+  height: 2px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.bg-red {
+  background: $bg-red-color;
+}
+
+// Navbar Section
+
+.navbar {
+  background: $bg-dark-color;
+  padding-top: 47px;
+
+  .logo {
+    color: $bg-red-color;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Leckerli One', cursive;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 5px;
+
+    .nav-link {
+      color: $text-dark-color;
+
+      &:hover {
+        color: $bg-red-color;
+      }
+    }
+  }
+}
+
+// Showcase
+
+.showcase-section {
+  position: relative;
+  background: $bg-dark-color;
+  height: 675px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 35px;
+      letter-spacing: 2px;
+      color: $text-dark-color;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 16px;
+      letter-spacing: 5px;
+      color: $text-light-color;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  .headphones {
+    position: absolute;
+    top: 3rem;
+    left: -10%;
+  }
+
+  .sunglasses {
+    position: absolute;
+    top: 22rem;
+    left: 7rem;
+  }
+
+  .pencil2 {
+    position: absolute;
+    top: 32rem;
+    left: -3rem;
+  }
+
+  .pencil1 {
+    position: absolute;
+    top: 34rem;
+    left: -5px;
+  }
+
+  .cork {
+    position: absolute;
+    top: 8rem;
+    right: 0px;
+  }
+
+  .glass {
+    position: absolute;
+    top: 7rem;
+    right: -10px;
+  }
+
+  .pen-holder {
+    position: absolute;
+    top: 20rem;
+    right: -50px;
+  }
+
+  .mouse {
+    position: absolute;
+    top: 29rem;
+    right: 150px;
+  }
+
+  .icon-scroll {
+    text-align: center;
+  }
+
+  .text-scroll {
+    text-align: center;
+    color: $bg-red-color;
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+  }
+}
+
+// Info Header global
+
+.info-header {
+  width: 50%;
+  margin: auto;
+
+  .info-header--title {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: $text-dark-color;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .info-header--text {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: $text-light-color;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+}
+
+// About Section
+
+.about {
+  margin-top: 113px;
+
+  .about--title {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: $text-dark-color;
+    font-weight: 600;
+  }
+
+  .about--text {
+    padding-right: 1rem;
+    font-size: 14px;
+    color: $text-light-color;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .about--button {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+  }
+}
+
+// What We Do Section
+
+.what-we-do {
+  margin-top: 130px;
+  .icon {
+    background: $bg-red-color;
+    color: #fff;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    min-width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    border-radius: 10px;
+    border: 3px solid #ebebeb;
+    margin-top: 63px;
+
+    .card--content {
+      color: $text-light-color;
+      margin-left: 31px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+
+      .card--title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+
+      .card--text {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+
+    &:hover {
+      background: $bg-red-color;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: 0.6s ease;
+
+      .card--content {
+        color: #fff;
+      }
+
+      .icon {
+        background: #fff;
+        color: $bg-red-color;
+      }
+    }
+
+    .card-body {
+      display: flex;
+    }
+  }
+}
+
+// Project People, Like, Loved Section
+
+.views-project {
+  margin-top: 98px;
+  background: url('/images/numSection.jpg') no-repeat center center/cover;
+
+  .content {
+    color: #ffffff;
+    padding: 50px 0px;
+    &__number {
+      font-size: 30px;
+      letter-spacing: 2px;
+      font-weight: 400;
+    }
+    &__subtitle {
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+// Three Simple Steps Section
+
+.steps {
+  position: relative;
+  background: $bg-light-color;
+
+  position: relative;
+
+  .info-header--title {
+    margin-top: 92px;
+  }
+
+  .info-header--text {
+    margin-bottom: 58px;
+  }
+
+  .img-fluid {
+    position: relative;
+    z-index: 2;
+  }
+
+  .steps-icon--tilte {
+    margin-top: 33px;
+    margin-bottom: 33px;
+    color: $text-dark-color;
+    font-weight: 600;
+  }
+
+  .steps-icon--text {
+    font-size: 14px;
+    color: $text-light-color;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+
+  .line {
+    position: absolute;
+    border-bottom: 1px solid $text-light-color;
+    margin-left: 180px;
+    width: 800px;
+    top: 61%;
+    z-index: 1;
+  }
+}
+
+//  Our Featured Work Section
+
+.featured-section {
+  background-color: #ececec;
+
+  .info-header--title {
+    margin-top: 90px;
+  }
+
+  .info-header--text {
+    margin-bottom: 74px;
+  }
+
+  // Featured Section Img
+
+  .feature-section--images {
+    .wrapper {
+      position: relative;
+      width: 100%;
+
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        bottom: 5%;
+        left: 5%;
+        opacity: 0;
+        transition: 0.6s ease;
+        cursor: pointer;
+        background-color: $bg-red-color;
+        width: 90%;
+        height: 90%;
+        color: #fff;
+
+        &:hover {
+          opacity: 0.7;
+          border: none;
+        }
+
+        .btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          font-size: 14px;
+          font-weight: 400;
+          font-family: 'Open Sans', sans-serif;
+          padding: 0.5rem 1.5rem;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+// Service Section
+
+.service-section {
+  background: $bg-light-color;
+
+  .info-header--title {
+    margin-top: 93px;
+  }
+
+  .info-header--text {
+    margin-bottom: 65px;
+  }
+}
+
+.service-section-body {
+  background: $bg-red-color;
+
+  .right-image {
+    text-align: right;
+  }
+
+  .content {
+    width: 70%;
+    margin: auto;
+    color: #fff;
+
+    .service-section-body--title {
+      letter-spacing: 3px;
+      font-weight: 600;
+    }
+
+    .line {
+      margin-top: 23px;
+      margin-bottom: 26px;
+    }
+
+    .service-section-body--text {
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}
+
+//  Keep Explooring Section
+
+.keep-exploor {
+  background: url('/images/cta.png') no-repeat center center/cover;
+  height: 390px;
+  color: #fff;
+
+  &__title {
+    margin-top: 18px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+
+  .keep-exploor--subtitle {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+
+  .btn {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.75rem 2rem;
+  }
+}
+
+// Portfolio Section
+
+.portfolio-section {
+  background-color: $bg-light-color;
+
+  .info-header--title {
+    margin-top: 105px;
+  }
+
+  .info-header--text {
+    margin-bottom: 41px;
+  }
+
+  .line {
+    width: 46px;
+    border: 1px solid #898989;
+    margin-bottom: 41px;
+  }
+
+  .navbar {
+    background-color: $bg-light-color;
+    margin-left: 20px;
+
+    .nav-item {
+      font-size: 16px;
+      color: #383737;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+
+      .line {
+        margin-top: 20px;
+        margin-left: 8px;
+      }
+
+      .slash {
+        padding-left: 22px;
+      }
+    }
+  }
+}
+
+// Gallery Section
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% auto auto;
+  position: relative;
+  width: 100%;
+
+  .item {
+    position: relative;
+
+    .img-fluid {
+      width: 100%;
+      height: 100%;
+    }
+
+    &:nth-child(2) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    &:nth-child(4) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    &:nth-child(9) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 6;
+    }
+
+    &:nth-child(10) {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 4;
+      grid-row-end: 6;
+    }
+
+    .item-5 {
+      display: flex;
+      width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      bottom: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+      opacity: 0;
+      background-color: $bg-red-color;
+      color: #fff;
+      transition: 0.3s ease;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.7;
+        border: none;
+      }
+
+      .content {
+        position: absolute;
+        bottom: 15%;
+        left: 10%;
+        font-family: 'Open Sans', sans-serif;
+
+        h3 {
+          font-size: 20px;
+          letter-spacing: 4px;
+          font-weight: 600;
+        }
+
+        p {
+          font-size: 16px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
+
+// Email Subscribe Section
+.email-subscribe {
+  background: url('/images/subscribeBG.png') no-repeat center center/cover;
+  color: #ffffff;
+  padding: 60px 0;
+
+  .content-left {
+    &__title {
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+
+    &__line {
+      margin-top: 20px;
+      margin-bottom: 23px;
+      width: 57px;
+      border: 1px solid #fff;
+    }
+
+    &__text {
+      font-size: 13px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  .content-right {
+    margin-top: 45px;
+
+    button {
+      padding: 15px 25px;
+      font-size: 12px;
+      font-weight: 600;
+      background: transparent;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+
+    input {
+      border-radius: 0px;
+      font-size: 12px;
+      color: #fff;
+      background: transparent;
+
+      &::placeholder {
+        color: #fff;
+        padding: 15px 25px;
+      }
+
+      &:focus {
+        border-color: #fff;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+// Crew Section
+
+.crew-head {
+  background: $bg-light-color;
+
+  .info-header--title {
+    margin-top: 100px;
+  }
+
+  .info-header--text {
+    margin-bottom: 45px;
+  }
+}
+
+.crew-body {
+  background: $bg-light-color;
+
+  .img {
+    position: relative;
+    cursor: pointer;
+
+    .img-fluid {
+      width: 100%;
+      height: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      left: 5%;
+      width: 90%;
+      height: 45%;
+      padding: 20px;
+      font-size: 11px;
+      opacity: 0;
+      transition: 0.6s ease;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      i {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 29px;
+        width: 29px;
+        min-width: 29px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .img-name {
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: $text-dark-color;
+    font-weight: 600;
+    margin-top: 27px;
+  }
+
+  .img-job {
+    font-size: 12px;
+    color: $text-dark-color;
+    padding-bottom: 80px;
+  }
+}
+
+// Testimonials Section
+
+.carousel {
+  background: url('/images/testimonialsBg.png') no-repeat center center/cover;
+  text-align: center;
+  color: #fff;
+
+  .carousel-indicators {
+    margin-bottom: 40px;
+
+    li {
+      display: inline-block;
+      border: 1px solid $bg-red-color;
+      border-radius: 50%;
+      background-color: transparent;
+      width: 10px;
+      height: 10px;
+      min-width: 10px;
+      text-indent: 0;
+      margin-left: 8px;
+      cursor: pointer;
+    }
+
+    .active {
+      width: 10px;
+      height: 10px;
+      min-width: 10px;
+      background-color: $bg-red-color;
+    }
+  }
+
+  .info-header {
+    &__title {
+      padding-top: 90px;
+      font-size: 20px;
+      letter-spacing: 4px;
+      font-weight: 600;
+    }
+
+    &__line-carousel {
+      margin-top: 24px;
+      width: 46px;
+      border: 2px solid #ffffff;
+      margin-left: 45%;
+    }
+
+    &__subtitle {
+      margin-top: 39px;
+      font-size: 18px;
+      letter-spacing: 7px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    &__img {
+      margin-top: 48px;
+    }
+
+    &__text {
+      margin-top: 48px;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      font-style: italic;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    &__name-author {
+      margin-top: 40px;
+      margin-bottom: 100px;
+      font-size: 20px;
+      letter-spacing: 2px;
+      color: $bg-red-color;
+      font-weight: 600;
+    }
+  }
+}
+
+// Latest Blog Section
+
+.latest-blog {
+  background-color: $bg-light-color;
+
+  .info-header--title {
+    margin-top: 107px;
+  }
+
+  .info-header--text {
+    margin-bottom: 85px;
+  }
+}
+
+.latest-picture {
+  background-color: $bg-light-color;
+
+  .left {
+    .content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: $bg-red-color;
+      color: #fff;
+      padding-top: 20%;
+      padding-left: 26px;
+
+      &__title {
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 600;
+      }
+
+      &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      &__line {
+        width: 34px;
+        border: 1px solid #ffffff;
+      }
+
+      &__text {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      &__date {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: -33px;
+      }
+    }
+  }
+}
+
+// Pricing Section
+
+.pricing-section {
+  background-color: $bg-light-color;
+
+  .info-header--title {
+    margin-top: 107px;
+  }
+
+  .info-header--text {
+    margin-bottom: 75px;
+  }
+}
+
+// Pricing Table
+
+.pricing-table {
+  background-color: $bg-light-color;
+  .card {
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.6s ease;
+
+      li:first-child,
+      li {
+        background-color: #fff;
+      }
+    }
+
+    li {
+      background-color: $bg-light-color;
+      color: $text-light-color;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    li:first-child {
+      background-color: $bg-light-color;
+      padding: 37px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    li:nth-child(2),
+    li:nth-child(3),
+    li:nth-child(4) {
+      font-family: 'Open Sans', sans-serif;
+      padding: 20px;
+    }
+
+    li:nth-child(5),
+    li:nth-child(6),
+    li:nth-child(7),
+    li:nth-child(8) {
+      font-size: 20px;
+    }
+
+    li:last-child {
+      padding: 26px 0;
+
+      .btn {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
+}
+
+// Get In Touch Section
+
+.get-in-touch {
+  background-color: $bg-light-color;
+
+  .info-header--title {
+    margin-top: 125px;
+  }
+
+  .info-header--text {
+    margin-bottom: 87px;
+  }
+}
+
+// Contact Section
+
+.contact {
+  background-color: $bg-light-color;
+
+  input {
+    padding: 0.75rem;
+  }
+
+  input,
+  textarea {
+    background-color: $bg-light-color;
+    font-size: 14px;
+    color: $text-light-color;
+    font-family: 'Open Sans', sans-serif;
+    border: 3px solid #ebebeb;
+  }
+
+  input::placeholder {
+    padding: 23px 10px;
+  }
+
+  textarea::placeholder {
+    padding: 15px 10px;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: $bg-red-color;
+    box-shadow: none;
+  }
+
+  .btn {
+    margin-top: 21px;
+    margin-bottom: 84px;
+    padding: 18px;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .content {
+    .contact-data-wrapper {
+      width: 60%;
+    }
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    i {
+      color: $bg-red-color;
+      cursor: pointer;
+    }
+
+    .text {
+      font-size: 14px;
+      color: $text-light-color;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 21px;
+      cursor: pointer;
+    }
+
+    .phone {
+      transform: rotate(90deg);
+    }
+  }
+}
+
+// Footer
+
+.main-footer {
+  background: $bg-red-color;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}

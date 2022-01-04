@@ -1,0 +1,53 @@
+.showcase-section {
+  position: relative; }
+  .showcase-section .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+  .showcase-section .headphones {
+    position: absolute;
+    top: 0;
+    left: -3rem; }
+  .showcase-section .pen-holder {
+    position: absolute;
+    top: 20rem;
+    right: -1rem; }
+  .showcase-section .icon-scroll {
+    text-align: center; }
+  .showcase-section .text-scroll {
+    text-align: center; }
+
+.about .about--button {
+  margin-bottom: 3rem; }
+
+.views-project .content {
+  margin-left: 4rem; }
+
+.steps .line {
+  margin-left: 150px;
+  width: 60%;
+  top: 61%; }
+
+.service-section-body .img {
+  text-align: center; }
+
+.service-section-body .txt {
+  text-align: center;
+  padding: 2rem 0; }
+
+.service-section-body .line {
+  margin: auto; }
+
+.crew-body .img .overlay {
+  width: 90%;
+  height: 175px; }
+
+.latest-picture .left {
+  margin-bottom: 2rem; }
+
+.contact .content {
+  margin-top: 25px;
+  padding: 3rem 0; }
+  .contact .content .phone {
+    margin-top: 20px; }

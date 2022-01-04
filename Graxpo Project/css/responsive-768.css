@@ -1,0 +1,97 @@
+.showcase-section {
+  height: 400px;
+  position: relative; }
+  .showcase-section .content {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+  .showcase-section .icon-scroll {
+    text-align: center; }
+  .showcase-section .text-scroll {
+    text-align: center; }
+  .showcase-section .headphones,
+  .showcase-section .cork,
+  .showcase-section .glass,
+  .showcase-section .pen-holder,
+  .showcase-section .pencil1,
+  .showcase-section .pencil2,
+  .showcase-section .mouse,
+  .showcase-section .sunglasses {
+    display: none; }
+
+.about .about--button {
+  margin-bottom: 3rem; }
+
+.steps .info-header--title {
+  line-height: 30px; }
+
+.featured-section .info-header--title {
+  line-height: 30px; }
+
+.views-project .content {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.views-project .line {
+  margin: auto; }
+
+.service-section .info-header--title {
+  line-height: 30px; }
+
+.service-section-body .img {
+  order: 1; }
+
+.service-section-body .txt {
+  order: 2;
+  padding: 2rem 0; }
+
+.keep-exploor__title {
+  line-height: 35px; }
+
+.portfolio-section .navbar-nav {
+  display: inline-block; }
+  .portfolio-section .navbar-nav .nav-item {
+    padding: 10px; }
+  .portfolio-section .navbar-nav .nav-item:last-child {
+    margin-bottom: 20px; }
+  .portfolio-section .navbar-nav .line {
+    display: none; }
+  .portfolio-section .navbar-nav .slash {
+    display: none; }
+
+.grid .item .overlay .content h3 {
+  font-size: 12px; }
+
+.grid .item .overlay .content p {
+  font-size: 10px; }
+
+.crew-body .img {
+  position: relative; }
+  .crew-body .img .overlay {
+    position: absolute;
+    width: 90%; }
+
+.latest-blog .info-header--title {
+  margin-top: 65px;
+  line-height: 30px; }
+
+.latest-picture .left {
+  margin-bottom: 2rem; }
+
+.pricing-section .info-header--title {
+  margin-top: 45px;
+  line-height: 30px; }
+
+.pricing-table .card {
+  margin-bottom: 3rem; }
+
+.get-in-touch .info-header--title {
+  margin-top: 45px;
+  line-height: 30px; }
+
+.contact .content .contact-data-wrapper {
+  display: flex;
+  flex-direction: row; }

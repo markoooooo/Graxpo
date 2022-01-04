@@ -1,0 +1,99 @@
+// Showcase
+.showcase-section {
+  position: relative;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .headphones {
+    position: absolute;
+    top: 0;
+    left: -3rem;
+  }
+
+  .pen-holder {
+    position: absolute;
+    top: 20rem;
+    right: -1rem;
+  }
+
+  .icon-scroll {
+    text-align: center;
+  }
+
+  .text-scroll {
+    text-align: center;
+  }
+}
+
+// About Section
+
+.about {
+  .about--button {
+    margin-bottom: 3rem;
+  }
+}
+
+.views-project {
+  .content {
+    margin-left: 4rem;
+  }
+}
+
+// Three Simple Steps Section
+.steps {
+  .line {
+    margin-left: 150px;
+    width: 60%;
+    top: 61%;
+  }
+}
+
+// Service Section
+
+.service-section-body {
+  .img {
+    text-align: center;
+  }
+
+  .txt {
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .line {
+    margin: auto;
+  }
+}
+
+// Crew Section
+.crew-body {
+  .img {
+    .overlay {
+      width: 90%;
+      height: 175px;
+    }
+  }
+}
+
+// Lattest Blog Picture Section
+.latest-picture {
+  .left {
+    margin-bottom: 2rem;
+  }
+}
+
+// Contact Info Section
+.contact {
+  .content {
+    margin-top: 25px;
+    padding: 3rem 0;
+    .phone {
+      margin-top: 20px;
+    }
+  }
+}
